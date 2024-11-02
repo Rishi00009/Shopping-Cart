@@ -1,16 +1,18 @@
-import home from './Components/home'
-import './App.css'
+import React from 'react';
+import { CartProvider } from './Cartcontext';
+import Home from './home';
+import './App.css';
 
-
-function App() {
-  
-
+const App = () => {
   return (
-    <>
-      {home()}
-   
-    </>
-  )
-}
+    <CartProvider>
+      {typeof window !== 'undefined' ? (
+        <Home />
+      ) : (
+        <div>Loading...</div>
+      )}
+    </CartProvider>
+  );
+};
 
-export default App
+export default App;
