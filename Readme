@@ -1,0 +1,28 @@
+This is a simple shopping cart website that allows users to view a list of available products, add items to their cart, and remove items from their cart.
+
+Features
+
+Display a list of available products with their name and description
+Add items to the cart by clicking the "Add to Cart" button
+Increase the cart quantity number when an item is added to the cart
+Change the "Add to Cart" button to the "Remove from Cart" button once the item is added to the cart
+Remove items from the cart by clicking the "Remove from Cart" button
+Decrease the cart quantity number when an item is removed from the cart
+Change the "Remove from Cart" button back to the "Add to Cart" button once the item is removed from the cart
+Technical Details
+
+Built using HTML, CSS, and JavaScript
+Uses a simple cart system to store and manage cart items
+No backend or database is required for this website
+How to Use
+
+Open the website in a web browser
+View the list of available products
+Click the "Add to Cart" button to add an item to the cart
+Click the "Remove from Cart" button to remove an item from the cart
+View the cart quantity number to see the number of items in the cart
+Code Structure
+
+index.html: The main HTML file for the website
+style.css: The CSS file for styling the website
+script.js: The JavaScript file for handling cart functionality
